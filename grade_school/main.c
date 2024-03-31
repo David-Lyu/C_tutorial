@@ -40,8 +40,14 @@ int main(int argc, char const *argv[]) {
 
     // set grades in courses
     do {
-      userChoice = 0;  
+        printf("Please Enter your choices: \n");
+        printf("1 For Student \n");
+        printf("2 For Administration ");
+        printf("0 To exit");
+        scanf("%d", &userChoice);;  
     }
     while (userChoice != 0);
     return 0;
 }
+
+
