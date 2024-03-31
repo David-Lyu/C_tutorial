@@ -29,7 +29,11 @@ int main(int argc, char const *argv[]) {
                 //student get grades, course
     
         // access courses
-            // set students
+            // create course
+                // set students_ids, course name,
+            // read course
+            // update course
+            // delete course
 
         // access grades
             // get student_id, grades, and course_id
