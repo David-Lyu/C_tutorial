@@ -45,9 +45,32 @@ int main(int argc, char const *argv[]) {
         printf("2 For Administration ");
         printf("0 To exit");
         scanf("%d", &userChoice);;  
+        switch (userChoice)
+        {
+        case 1:
+            studentMenu();
+            break;
+        case 2:
+            administrationMenu();
+            break;
+        case 0:
+            printf('Exiting main menu');
+            break;
+        default:
+            printf('Wrong selection. Exiting program');
+            userChoice = 0;
+            break;
+        }
     }
     while (userChoice != 0);
     return 0;
 }
 
+void studentMenu() {
+
+}
+
+void admininstrationMenu() {
+
+}
 
