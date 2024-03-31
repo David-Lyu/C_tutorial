@@ -57,7 +57,7 @@ int main(int argc, char const *argv[]) {
             printf('Exiting main menu');
             break;
         default:
-            printf('Wrong selection. Exiting program');
+            printf('Wrong selection. Exiting ');
             userChoice = 0;
             break;
         }
